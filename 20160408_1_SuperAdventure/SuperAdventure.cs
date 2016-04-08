@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace _20160408_1_SuperAdventure
 {
-    public partial class Form1 : Form
+    public partial class SuperAdventure : Form
     {
-        public Form1()
+        //private Player _player;
+
+        public SuperAdventure()
         {
             InitializeComponent();
+        }
+
+        private void SuperAdventure_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
