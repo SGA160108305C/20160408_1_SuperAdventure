@@ -41,80 +41,89 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(18, 20);
+            this.label1.Location = new System.Drawing.Point(14, 12);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 20);
+            this.label1.Size = new System.Drawing.Size(62, 12);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hit Points:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(18, 46);
+            this.label2.Location = new System.Drawing.Point(14, 28);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 20);
+            this.label2.Size = new System.Drawing.Size(35, 12);
             this.label2.TabIndex = 1;
             this.label2.Text = "Gold:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 74);
+            this.label3.Location = new System.Drawing.Point(14, 44);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 20);
+            this.label3.Size = new System.Drawing.Size(73, 12);
             this.label3.TabIndex = 2;
             this.label3.Text = "Experience:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(18, 100);
+            this.label4.Location = new System.Drawing.Point(14, 60);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 20);
+            this.label4.Size = new System.Drawing.Size(39, 12);
             this.label4.TabIndex = 3;
             this.label4.Text = "Level:";
             // 
             // lblHitPoints
             // 
             this.lblHitPoints.AutoSize = true;
-            this.lblHitPoints.Location = new System.Drawing.Point(110, 19);
+            this.lblHitPoints.Location = new System.Drawing.Point(86, 11);
+            this.lblHitPoints.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHitPoints.Name = "lblHitPoints";
-            this.lblHitPoints.Size = new System.Drawing.Size(51, 20);
+            this.lblHitPoints.Size = new System.Drawing.Size(38, 12);
             this.lblHitPoints.TabIndex = 4;
             this.lblHitPoints.Text = "label5";
             // 
             // lblGold
             // 
             this.lblGold.AutoSize = true;
-            this.lblGold.Location = new System.Drawing.Point(110, 45);
+            this.lblGold.Location = new System.Drawing.Point(86, 27);
+            this.lblGold.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblGold.Name = "lblGold";
-            this.lblGold.Size = new System.Drawing.Size(51, 20);
+            this.lblGold.Size = new System.Drawing.Size(38, 12);
             this.lblGold.TabIndex = 5;
             this.lblGold.Text = "label5";
             // 
             // lblExperience
             // 
             this.lblExperience.AutoSize = true;
-            this.lblExperience.Location = new System.Drawing.Point(110, 73);
+            this.lblExperience.Location = new System.Drawing.Point(86, 44);
+            this.lblExperience.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblExperience.Name = "lblExperience";
-            this.lblExperience.Size = new System.Drawing.Size(51, 20);
+            this.lblExperience.Size = new System.Drawing.Size(38, 12);
             this.lblExperience.TabIndex = 6;
             this.lblExperience.Text = "label5";
             // 
             // lblLevel
             // 
             this.lblLevel.AutoSize = true;
-            this.lblLevel.Location = new System.Drawing.Point(110, 99);
+            this.lblLevel.Location = new System.Drawing.Point(86, 59);
+            this.lblLevel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLevel.Name = "lblLevel";
-            this.lblLevel.Size = new System.Drawing.Size(51, 20);
+            this.lblLevel.Size = new System.Drawing.Size(38, 12);
             this.lblLevel.TabIndex = 7;
             this.lblLevel.Text = "label5";
             // 
             // SuperAdventure
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(713, 634);
+            this.BackColor = System.Drawing.SystemColors.Desktop;
+            this.ClientSize = new System.Drawing.Size(555, 380);
             this.Controls.Add(this.lblLevel);
             this.Controls.Add(this.lblExperience);
             this.Controls.Add(this.lblGold);
@@ -123,6 +132,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.SystemColors.Window;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "SuperAdventure";
             this.Text = "My Game";
             this.Load += new System.EventHandler(this.SuperAdventure_Load);
